@@ -1,4 +1,4 @@
-# Top 30 Git Commands You Should Know To Become a Git Master
+# Top 30 Git Commands To Know To Become a Git Master
 
 1. Set Up Your Username and Email
         
