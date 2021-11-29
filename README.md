@@ -48,16 +48,61 @@
         git rm dirname/*.html
 
 11. Rename Files
+
+        git mv dir1/somefile.js dir2
+
 12. Revert Unstaged and Staged Changes
-13. Amend The Most Recent Commit
+        
+        git checkout somefile.js
+        git reset HEAD somefile.js
+        git reset HEAD
+
+13. Amend The Most Recent Commit (Alert!!! Don’t amend public commits.)
+
+        git commit --amend -m "Updated message for the previous commit"
+        git add dir1  
+        git commit# Here you forgot to add dir2 to commit, you can execute the following command to amend the other files and folders.git add dir2  
+        git commit --amend --no-edit
+
 14. Rollback Last Commit
+        
+        git revert HEAD
+
 15. Rollback a Particular Commit
+        
+        git revert 1af17e
+
 16. Create and Switch To a New Branch
+
+        git branch new_branch_name
+        git checkout -b new_branch_name
+
 17. List All Branches
+
+        git branch
+        git branch -a
+
 18. Delete a Branch
+
+        git branch -d existing_branch
+        git branch -D existing_branch_name
+        git push origin --delete existing_branch_name //# Pushing local deletion to remote
+
 19. Merge Two Branches
+
+        git merge existing_branch_name
+        git merge --no-ff existing_branch_name //# Generates a merge commit
+
 20. Show Commit Log as Graph For Current or All Branches
+
+        git log --graph --oneline --decorate
+        git log --all --graph --oneline --decorate //# for all brnaches
+        
 21. Abort a Conflicting Merge
+
+        git merge --abort
+        git reset
+
 22. Add a Remote Repository
 23. View Remote URLs
 24. Get Additional Information About a Remote Repository
