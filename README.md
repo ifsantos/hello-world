@@ -14,6 +14,7 @@
         git init
 
 4. Add Individual File or All Files To Staging Area
+
         git add somefile.js
         git add .
 
