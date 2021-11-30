@@ -1,20 +1,20 @@
 # Top 30 Git Commands To Become a Git Master :godmode:
 
-00.  Setup ssh key
+00.  Setup ssh key (It's preferrable on Linux)
 
-       ssh-keygen -t ed25519 -C fs.ismael@gmail.com
-       // Set public key on Github settings
-       eval $(ssh-agent -s)
-       ssh-add id_ed25519
+        ssh-keygen -t ed25519 -C fs.ismael@gmail.com
+        // Set public key on Github settings
+        eval $(ssh-agent -s)
+        ssh-add id_ed25519
 
 0. List configuration
 
-       git config --list
+        git config --list
 
 1. Set Up Your Username and Email
         
-       git config --global user.name "Tara Routray"
-       git config --global user.email "dev@tararoutray.com"
+        git config --global user.name "Tara Routray"
+        git config --global user.email "dev@tararoutray.com"
 
 2. Cache Your Login Credentials
    
