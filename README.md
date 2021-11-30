@@ -9,8 +9,8 @@
 
 1. Set Up Your Username and Email
         
-        git config --global user.name "Tara Routray"
-        git config --global user.email "dev@tararoutray.com"
+       git config --global user.name "Tara Routray"
+       git config --global user.email "dev@tararoutray.com"
 
 2. Cache Your Login Credentials
    
