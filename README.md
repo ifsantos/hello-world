@@ -7,7 +7,7 @@
        eval $(ssh-agent -s)
        ssh-add id_ed25519
 
-0. List config
+0. List configuration
 
        git config --list
 
