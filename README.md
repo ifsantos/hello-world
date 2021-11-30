@@ -1,4 +1,4 @@
-# Top 30 Git Commands To Know To Become a Git Master :godmode:
+# Top 30 Git Commands To Become a Git Master :godmode:
 
 0. Setup ssh key
 
