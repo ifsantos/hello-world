@@ -8,6 +8,7 @@
        ssh-add id_ed25519
 
 0. List config
+
        git config --list
 
 1. Set Up Your Username and Email
