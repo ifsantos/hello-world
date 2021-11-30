@@ -1,11 +1,14 @@
-# Top 30 Git Commands To Become a Git Master :godmode:
+# Top 30 Git Commands To Become a Git Master :godmode
 
-0. Setup ssh key
+00.  Setup ssh key
 
        ssh-keygen -t ed25519 -C fs.ismael@gmail.com
        // Set public key on Github settings
        eval $(ssh-agent -s)
        ssh-add id_ed25519
+
+0. List config
+       git config --list
 
 1. Set Up Your Username and Email
         
