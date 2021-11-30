@@ -150,8 +150,9 @@
 30. Use Rebase (Rebasing is a process to combine or move a sequence of commits to a new base commit.)
         
         git rebase branch_name
-    The above command will change the base of your branch from one commit to another, which will make it appear as if you have created your branch from a different commit. Git achieves this by creating new commits and applying them to the specified base. It’s very necessary to understand that even though the branch looks the same, it’s comprised of entirely new commits.
+   -[ ] The above command will change the base of your branch from one commit to another, which will make it appear as if you have created your branch from a different commit. Git achieves this by creating new commits and applying them to the specified base. It’s very necessary to understand that even though the branch looks the same, it’s comprised of entirely new commits.
 
 ## Refference:
  - <https://levelup.gitconnected.com/top-30-git-commands-you-should-know-to-master-git-cli-f04e041779bc>
+
 
